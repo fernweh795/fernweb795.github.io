@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="javacss.css">
+
+ </head>
+
+ <body>
+       <header>
+        <ul class="nav">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#highlight">Highlight</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#about">About</a></li>
+            </ul>
+    
+        </header>
+        
+    <h1>Blue Log</h1><h3 id="greetings"></h3>
+    <h3>Welcome to my space</h3>
+    <h3>Here you can crash with my creative thoughts, spark yours from heart.</h3>
+
+    <img src="sea.jpeg" style="margin:0px;width:400px;height:400px;">
+
+    <div class="container">
+    <h2>My best works...</h2>
+    <div class="input-area">
+        <input type="text" id="BtitleInput" placeholder="Add a new article name">
+        <button id="Badd-button" onclick="addArticle('BtitleInput','BarticleList')">add</button>
+    <ul id="BarticleList">
+
+    </ul>
+    
+    <div class="">
+    <h2>My recent works...</h2>
+    <input type="text" id="RtitleInput" placeholder="Add a new article name">
+    <button id="Radd-button" onclick="addArticle('RtitleInput','RarticleList')">add</button>
+    <ul id="RarticleList">
+
+    </ul>
+    
+
+    <br>
+
+    <h2>My games</h2>
+    <ul>
+    <li>1. Calculator</li>
+    </ul>
+
+
+    <form>
+    <label>Enter any value, you will get it 6+ </label>
+    <input type="text" id="x"></form>
+    <button type="submit" onclick="calculate()">submit</button>
+
+    <p id="demo">The sum is </p>
+
+    <h2>Comment</h2>
+    <form>
+        <label for="fmes">leave your message from anywhere</label><br>
+        <input type="text" id="fmes">
+        <br><lable for="email">email address</lable>
+        <br><input type="email" id="email">
+        <br><input type="submit" onclick="alert('Your message has been sent.')">
+
+    </form>
+
+    <br>
+    <p>Blue Log</p>
+    <p id="fake">email:bluelog@proton.me</p>
+    <button type="button" onclick="showEmail()">Click before you sent</button>
+
+
+    <script src="javascript.js"></script>
+    </body>
+
+ 
+
+</html>
